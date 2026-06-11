@@ -1,5 +1,5 @@
 import { Hero } from '@/components/landing/hero';
-// import { LandingNav } from '@/components/landing/landing-nav';
+import { LandingNav } from '@/components/landing/landing-nav';
 import {
   ExampleFindings,
   Features,
@@ -13,7 +13,7 @@ import {
 export default function HomePage() {
   return (
     <div className='min-h-screen'>
-      {/* <LandingNav /> */}
+      <LandingNav />
       <main>
         <Hero />
         <Stats />
